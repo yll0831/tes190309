@@ -1,0 +1,22 @@
+OBJ := main.o
+OBJ += fun1.o
+OBJ += fun2.o
+CC = gcc
+
+s:
+	make -C obj/
+
+main.o:
+	make -C src
+
+fun1.o:
+	make -C src/fun1/
+
+fun2.o:
+	make -C src/fun2/
+
+.PHONY:clean
+
+clean:
+	make - C obj/
+	
