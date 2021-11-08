@@ -1,0 +1,3 @@
+xiaomi 10 
+huawei 20 
+huawei2 20
