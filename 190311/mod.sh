@@ -1,4 +1,3 @@
-489021
 #!/bin/bash
 
 make cp		FILE=$1
